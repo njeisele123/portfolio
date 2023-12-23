@@ -15,23 +15,23 @@ export default function Projects() {
         },
         {
             title: 'Code Editor',
-            link: '/imageFiltering',
+            link: '/editor',
             img: '/code.png'
         },
         {
             title: 'Online Chess',
-            link: '/imageFiltering',
+            link: '/chess',
             img: '/chess.jpg'
         },
         {
             title: 'Algorithm Visualizer',
-            link: '/imageFiltering',
+            link: '/algorithms',
             img: '/visualizer.png'
         },
         // TODO: I think mock youtube would be more interesting than this
         {
             title: 'Web Forum',
-            link: '/imageFiltering',
+            link: '/forum',
             img: '/lamp.jpg'
         }
     ]

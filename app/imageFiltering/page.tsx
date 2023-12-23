@@ -1,19 +1,5 @@
-import Image from "next/image";
+import { DemoImage } from "../ui/demoImage";
 import { InlineLink } from "../ui/inlineLink";
-
-const IMG_SIZE = 400;
-
-const DemoImage = ({ file }: { file: string }) => {
-  return (
-    <Image
-      src={file}
-      alt=""
-      width={IMG_SIZE}
-      height={IMG_SIZE}
-      className="py-8"
-    />
-  );
-};
 
 export default function Page() {
   return (
@@ -25,10 +11,9 @@ export default function Page() {
       <br />
       <p>
         Here, I implemented the
-        <InlineLink
-          href="https://en.wikipedia.org/wiki/K-means_clustering"
-          text="K-Means"
-        />
+        <InlineLink href="https://en.wikipedia.org/wiki/K-means_clustering">
+          K-Means{" "}
+        </InlineLink>
         algorithm and applied it to images to create some interesting effects.
         This algorithm works by determining clusters for data through an
         iterative process. In this case, the data are the pixels of the image
@@ -37,10 +22,9 @@ export default function Page() {
       <br />
       <p>
         Code:
-        <InlineLink
-          href="https://github.com/njeisele/ImageFiltering"
-          text="https://github.com/njeisele/ImageFiltering"
-        />
+        <InlineLink href="https://github.com/njeisele/ImageFiltering">
+          https://github.com/njeisele/ImageFiltering
+        </InlineLink>
       </p>
       <br />
       <p>
