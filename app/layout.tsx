@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/react';
 import './globals.css'
 import Footer from './ui/footer'
 
@@ -21,6 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>{children}
       <footer><Footer /></footer>
+      <Analytics />
       </body>
     </html>
   )
