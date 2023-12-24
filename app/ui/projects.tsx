@@ -38,10 +38,10 @@ export default function Projects() {
 
     // TODO: make this flex on mobile
     return (
-        <section className="w-full py-12">
+        <section className="w-full">
             <div className="container grid gap-6 md:gap-8 px-4 md:px-6">
                 <h1 className="text-2xl font-bold tracking-tight text-center">Projects</h1>
-                <div className="grid md:grid-cols-3 gap-x-4 gap-y-0 lg:gap-6 xl:gap-8 items-start">
+                <div className="grid md:grid-cols-3 gap-x-4 gap-y-1 lg:gap-6 xl:gap-8 items-start">
                     {cards.map(c => projectCard(c))}
                 </div>
             </div>

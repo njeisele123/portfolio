@@ -1,12 +1,12 @@
 import { DemoImage } from "../ui/demoImage";
 import { InlineLink } from "../ui/inlineLink";
+import { Video } from "../ui/video";
 
 export default function Page() {
   return (
-    <main className="min-h-screen py-24 px-80">
+    <main className="min-h-screen py-24 px-4 md:px-4 lg:px-80">
       <h1 className="text-2xl sm:text-2xl lg:text-2xl font-bold text-left">
-        {" "}
-        Image Effects{" "}
+        Speech-based Code Editor
       </h1>
       <br />
       <p>
@@ -26,15 +26,10 @@ export default function Page() {
         </InlineLink>
       </p>
       <br />
-      <iframe
-        width="790"
-        height="444"
+      <Video
         src="https://www.youtube.com/embed/fSwXV9wqL68"
         title="Speech Based Code Editor Demo"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowFullScreen
-      ></iframe>
+      />
     </main>
   );
 }

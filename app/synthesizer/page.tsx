@@ -3,7 +3,7 @@ import { InlineLink } from "../ui/inlineLink";
 
 export default function Page() {
   return (
-    <main className="min-h-screen py-24 px-80">
+    <main className="min-h-screen py-24 px-4 lg:px-80">
       <h1 className="text-2xl sm:text-2xl lg:text-2xl font-bold text-left">
         Synthesizer
       </h1>
