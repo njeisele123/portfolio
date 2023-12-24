@@ -3,7 +3,9 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Footer from './ui/footer'
 
-const inter = Inter({ subsets: ['latin'] })
+import { Roboto } from 'next/font/google'
+
+const inter = Roboto({ subsets: ['latin'], weight: '300'})
 
 export const metadata: Metadata = {
   title: 'Nick Eisele - Portfolio',
