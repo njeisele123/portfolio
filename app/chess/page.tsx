@@ -24,21 +24,27 @@ export default function Page() {
         of black vs white pieces on the board.
         <br />
         <br />
-        Here is a github link to the project and here are some screen shots of
-        the final implementation.
+        Code:
+        <InlineLink href="https://github.com/njeisele/Chess">
+          https://github.com/njeisele/Chess
+        </InlineLink>
         <br />
         <br />
         (A player can go to the site and create a new game)
         <br />
         <br />
+        Some screenshots
+        <br />
+        <br />
         {/* TODO: up the size of this */}
-        <DemoImage file='/chess/create.png' size={600}/>
-        (The game is initialized and the player can then send an invite link to a friend)
-        <DemoImage file='/chess/2.png' size={600}/>
+        <DemoImage file="/chess/create.png" size={600} />
+        (The game is initialized and the player can then send an invite link to
+        a friend)
+        <DemoImage file="/chess/2.png" size={600} />
         (Player 2 can connect and the game can commence)
-        <DemoImage file='/chess/3.png' size={600}/>
+        <DemoImage file="/chess/3.png" size={600} />
         (A possible outcome of the game)
-        <DemoImage file='/chess/4.png' size={600}/>
+        <DemoImage file="/chess/4.png" size={600} />
       </p>
     </main>
   );

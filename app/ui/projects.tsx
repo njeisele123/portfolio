@@ -28,12 +28,18 @@ export default function Projects() {
             link: '/algorithms',
             img: '/visualizer.png'
         },
-        // TODO: I think mock youtube would be more interesting than this
         {
+            title: 'Finance Dashboard',
+            link: '/finance',
+            img: '/finance.png'
+        }
+        
+        // TODO: I think mock youtube would be more interesting than this
+        /*{
             title: 'Web Forum',
             link: '/forum',
             img: '/lamp.jpg'
-        }
+        }*/
     ]
 
     // TODO: make this flex on mobile
