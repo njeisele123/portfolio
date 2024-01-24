@@ -12,7 +12,7 @@ export default function Page() {
       to keep track of my personal finances. It aggregates data across different
       investment categories using a few different methods: public APIs, bank
       integrations, and headless browser automation. Using this, along with a
-      PostgreSQL database, I'm able to view my net worth, time series data on my
+      PostgreSQL database, I am able to view my net worth, time series data on my
       investments, and a watch list of stocks/cryptos.
       <br />
       <br />
