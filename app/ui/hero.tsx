@@ -16,7 +16,7 @@ export default function Hero() {
             <div className="flex flex-wrap gap-4">
               <Link
                 className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 text-white px-8 text-sm font-medium shadow transition-colors hover:bg-gray-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-800 disabled:pointer-events-none disabled:opacity-50"
-                href="Resume-2022.pdf"
+                href="Resume.pdf"
                 download={'njeisele-resume.pdf'}
                 target='_blank'
               >
