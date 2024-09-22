@@ -1,12 +1,12 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="w-full py-24 bg-[#f9fafb] dark:bg-[#1f2937]">
-      <div className="container mx-auto px-1 md:px-6 lg:px-8">
+    <section className=" w-full py-24 bg-[#f9fafb] dark:bg-[#1f2937]">
+      <div className="container px-1 md:px-6 lg:px-8">
         <div className="flex flex-col-reverse lg:grid lg:grid-cols-[3fr,2fr] gap-2 lg:gap-2 items-center">
-          <div className="space-y-8">
+          <div className="space-y-8 pl-0 md:pl-48 pt-8 md:pt-0">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-gray-100">
               Nick Eisele
             </h1>
@@ -17,8 +17,8 @@ export default function Hero() {
               <Link
                 className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 text-white px-8 text-sm font-medium shadow transition-colors hover:bg-gray-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-800 disabled:pointer-events-none disabled:opacity-50"
                 href="Resume.pdf"
-                download={'njeisele-resume.pdf'}
-                target='_blank'
+                download={"njeisele-resume.pdf"}
+                target="_blank"
               >
                 View Resume
               </Link>
@@ -33,15 +33,15 @@ export default function Hero() {
           <div className="aspect-w-16 aspect-h-9 lg:aspect-none lg:h-auto">
             <Image
               className="relative"
-              src="/OIP.png"
+              src="/me-circ.png"
               alt="Next.js Logo"
-              width={475}
-              height={316}
+              width={300}
+              height={300}
               priority
             />
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
